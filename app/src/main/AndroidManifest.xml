@@ -33,6 +33,11 @@
             android:exported="false" />
         <activity
             android:name=".Activities.PlayingMusic"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Activities.Home"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
